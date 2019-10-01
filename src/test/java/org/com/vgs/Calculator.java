@@ -9,4 +9,7 @@ public class Calculator {
 		int c=a+b;
 		System.out.println("Addition of: "+c);
 	}
+	public static void sub(int a,int b) {
+		int c=a-b;
+	}
 }
