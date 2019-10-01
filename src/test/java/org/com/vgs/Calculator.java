@@ -15,10 +15,6 @@ public class Calculator {
 	}
 	public static void sub(int a,int b) {
 		int c=a-b;
-<<<<<<< HEAD
-		System.out.println(""+c);
-=======
-		System.out.println(c);
->>>>>>> 16ef5e4421f28ce15000be72bb0375b38b062f92
+		System.out.println("Subtraction of: "+c);
 	}
 }
