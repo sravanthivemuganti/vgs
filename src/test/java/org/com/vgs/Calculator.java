@@ -7,6 +7,6 @@ public class Calculator {
 	}
 	public static void add(int a,int b) {
 		int c=a+b;
-		System.out.println(c);
+		System.out.println("Addition of: "+c);
 	}
 }
