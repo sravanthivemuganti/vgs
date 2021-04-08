@@ -2,7 +2,7 @@ package org.com.vgs;
 
 public class StringPalindrome {
 public static void main(String[] args) {
-	String given = "MADAM";
+	String given = "RADAR";
 	String reverse ="";
 	for(int i=given.length()-1;i>=0;i--) {
 		reverse = reverse+given.charAt(i);
@@ -12,6 +12,5 @@ public static void main(String[] args) {
 	
 	else 
 		System.out.println("Given String is not a Palindrome");
-	
 }
 }
