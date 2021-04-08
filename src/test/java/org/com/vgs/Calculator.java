@@ -13,7 +13,7 @@ public class Calculator {
 		int c=a+b;
 		System.out.println("Addition of: "+c);
 	}
-	public static void sub(int a,int b) {
+	public static void subtraction(int a,int b) {
 		int c=a-b;
 		System.out.println("Subtraction of: "+c);
 	}
