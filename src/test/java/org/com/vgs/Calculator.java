@@ -3,13 +3,13 @@ package org.com.vgs;
 public class Calculator {
 	public static void main(String[]args) {
 		int a=10,b=5;	
-		add(a,b);
+		addition(a,b);
 	}
 	public static void mul(int a,int b){
 		int c=a*b;
 		System.out.println("Multipilication of: "+c);
 	}
-	public static void add(int a,int b) {
+	public static void addition(int a,int b) {
 		int c=a+b;
 		System.out.println("Addition of: "+c);
 	}
