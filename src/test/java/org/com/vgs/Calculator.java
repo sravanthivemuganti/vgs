@@ -17,5 +17,13 @@ public class Calculator {
 		int c=a-b;
 		System.out.println("Subtraction of: "+c);
 	}
-	
+	public static void calculator(int a,int b) {
+		if(a>b)
+			{
+			addition(a,b);
+			subtraction(a, b);
+			}
+		else
+			subtraction(a, b);
+	}
 }
